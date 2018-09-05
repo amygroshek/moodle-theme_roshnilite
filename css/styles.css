@@ -3831,6 +3831,9 @@ input[type="reset"]:focus,
 .loginbox h2 {
     text-align: left;
 }
+#region-main .loginbox h2 {
+    margin-left: 15px;
+}
 .loginpanel {
     margin-right: 3rem;
 }
@@ -3842,4 +3845,12 @@ input[type="reset"]:focus,
         margin-left: 4rem;
         margin-right: 3rem;
     }
+}
+#page-login-signup .loginbox input[type="submit"] {
+    width: auto;
+    padding: 0 20px;
+}
+.loginbox .felement.fstatic[data-fieldtype="static"],
+.loginbox label {
+    line-height: normal;
 }
