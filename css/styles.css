@@ -6,7 +6,7 @@
 /*
 Description:
 		1 - Including files ("fonts.css", "reset.css" and others)
-		2 - Tags styles and General styles		
+		2 - Tags styles and General styles
 		3 - Header
 		4 - .content
 		5 - Footer
@@ -25,7 +25,7 @@ Description:
 [[setting:fontfilesheading]]
 [[setting:fontfilesbody]]
  */
- 
+
 body {
 	min-height: 700px;
 	font-family: 'Raleway', sans-serif;
@@ -145,8 +145,8 @@ a:focus, a:visited {
 	text-decoration: none;
 }
 
-button:hover, 
-input:hover, 
+button:hover,
+input:hover,
 select:hover {
 	opacity: 0.8;
 }
@@ -260,7 +260,7 @@ header {
 	margin: 0;
 }
 
-.header-form form input[type="text"], 
+.header-form form input[type="text"],
 .header-form form input[type="password"] {
 	background: transparent none repeat scroll 0 0;
 	border: 1px solid rgba(255, 255, 255, .3);
@@ -293,7 +293,7 @@ header {
 	z-index: 1;
 }
 
-.header-form form input[type="submit"], 
+.header-form form input[type="submit"],
 .header-form form button {
 	background: #e84c3d;
 	border: 1px solid #e84c3d;
@@ -313,7 +313,7 @@ header {
 	margin: 0;
 }
 
-.header3-login input[type="text"], 
+.header3-login input[type="text"],
 .header3-login input[type="password"] {
 	background: none;
 	color: #bfbfbf;
@@ -418,7 +418,7 @@ form.innerpage-login {
 	.header3-login input {
 		width: 31%;
 	}
-	
+
 	.logo {
 		margin-left: 0!important;
 	}
@@ -519,7 +519,7 @@ header .bx-wrapper {
 	margin: 0 auto;
 }
 
-header .bx-wrapper .bx-pager, 
+header .bx-wrapper .bx-pager,
 header .bx-wrapper .bx-controls-auto {
 	bottom: 40px;
 }
@@ -1217,8 +1217,8 @@ header .bx-wrapper .bx-pager.bx-default-pager a {
 	transition: opacity 0.4s;
 }
 
-.categories-item-cont > p{	
-	text-transform: none;	
+.categories-item-cont > p{
+	text-transform: none;
 	text-transform:capitalize;
 }
 
@@ -1431,7 +1431,7 @@ footer {
 }
 
 .navbar-inner-login {
-	height:62px;	
+	height:62px;
 }
 
 .usermenu .menubar a {
@@ -1537,7 +1537,7 @@ div#page-navbar {
 
 .empty-region-side-post #region-main-box.span9,
 .empty-region-side-pre #region-main.span9 {
-    width: 100%; 
+    width: 100%;
 	margin:0;
 	padding:0;
 }
@@ -1755,16 +1755,16 @@ body.has_dock #page {
 	left: -21px;
 }
 
-#region-main h2:after { 
+#region-main h2:after {
 	border:none;
 }
 
-#region-main h2 { 
+#region-main h2 {
 	margin-left:10px;
 }
 
 #region-main.two-column-main h2 {
-	margin-left:0;	
+	margin-left:0;
 }
 
 .block .content {
@@ -1775,7 +1775,7 @@ body.has_dock #page {
 }
 
 .block_course_overview .content {
- 	margin: 0 10px;	
+ 	margin: 0 10px;
 }
 
 .block .block_tree {
@@ -1833,7 +1833,7 @@ body.has_dock #page {
 	color: #000000;
 }
 
-#block-region-side-post {	
+#block-region-side-post {
 	float: right;
 	padding-top:41px;
 	padding-left:15px;
@@ -1995,7 +1995,7 @@ body.has_dock #page {
 	display: none;
 }
 
-.mform fieldset.collapsible legend a.fheader { 
+.mform fieldset.collapsible legend a.fheader {
 	margin-left:0!important;
 	padding-left:25px!important;
 }
@@ -2012,63 +2012,63 @@ li.item_with_icon:last-child .hasicon {
     padding-bottom: 10px!important;
 }
 
-fieldset.collapsible { 
+fieldset.collapsible {
 	padding-bottom:10px;
 }
 
-.box.generalbox { 
-	padding-bottom: 20px; 
+.box.generalbox {
+	padding-bottom: 20px;
 	padding-left:10px;
 }
 
-.managelink, 
-.path-calendar .maincalendar div.header, 
-.userprofilebox, 
+.managelink,
+.path-calendar .maincalendar div.header,
+.userprofilebox,
 .course_category_tree {
 	padding-left:10px;
 }
 
-.ftoggler { 
+.ftoggler {
 	text-transform:uppercase;
 }
 
-.minicalendarblock { 
+.minicalendarblock {
 	margin-bottom:20px;
 }
-.descriptionbox { 
-	border: 1px solid #eee; 
+.descriptionbox {
+	border: 1px solid #eee;
 	padding: 5px;
 }
 
-#region-main .alert { 
+#region-main .alert {
 	margin-left:10px;
 }
 
-.two-column-main { 
+.two-column-main {
 	padding-left:10px!important;
 }
 
-table.flexible th, 
-.generaltable th, 
-table.flexible td, 
+table.flexible th,
+.generaltable th,
+table.flexible td,
 .generaltable td {
 	padding: 8px 2px;
 }
 
-.rolecap { 
+.rolecap {
 	border-bottom: 1px solid #eee;
 }
 
-.rolecap td, 
-.rolecap th { 
+.rolecap td,
+.rolecap th {
 	padding:5px 0;
 }
 
-.rolecap thead { 
+.rolecap thead {
 	border-bottom: solid 1px #EEE;
 }
 
-#page-content div.container.no-background { 
+#page-content div.container.no-background {
 	background:none!important;
 }
 
@@ -2081,14 +2081,14 @@ table.flexible td,
     margin-top: 15px;
 }
 
-div#notice p { 
+div#notice p {
 	margin-bottom:16px;
 }
 
-div#notice div.singlebutton div { 
+div#notice div.singlebutton div {
 	margin-left:0;
 }
- 
+
 /* only for other device this style. */
 
 /****************************************/
@@ -2164,10 +2164,10 @@ div#notice div.singlebutton div {
 	margin-right:28px;
 }
 
-input[type="submit"], 
-.adminsearchform input[type="submit"], 
-#searchform_button, 
-#id_submitbutton, 
+input[type="submit"],
+.adminsearchform input[type="submit"],
+#searchform_button,
+#id_submitbutton,
 #id_cancel, #checkall, #checknone {
 	border-radius: 0!important;
 	text-shadow: none!important;
@@ -2179,21 +2179,21 @@ input[type="submit"],
 
 }
 
-textarea, 
-input[type="text"], 
-input[type="password"], 
-input[type="datetime"], 
-input[type="datetime-local"], 
-input[type="date"], 
-input[type="month"], 
-input[type="time"], 
-input[type="week"], 
-input[type="number"], 
-input[type="email"], 
-input[type="url"], 
-input[type="search"], 
-input[type="tel"], 
-input[type="color"], 
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
 .uneditable-input {
 	border-radius: 0!important;
 	border: 1px solid #939393;
@@ -2427,13 +2427,13 @@ button.atto_title_button img.icon:last-child {
    text-align:left;
    opacity:.5;
 }
-.custom-article h1, 
-.custom-article h2, 
-.custom-article h3, 
-.custom-article h4, 
-.custom-article h5, 
+.custom-article h1,
+.custom-article h2,
+.custom-article h3,
+.custom-article h4,
+.custom-article h5,
 .custom-article h6  {
-	text-transform:none; 
+	text-transform:none;
 	padding:10px 0;
 	font-weight:600;
 }
@@ -2487,7 +2487,7 @@ button.atto_title_button img.icon:last-child {
 	border-top:none;
 	background:#f6f6f6;
 	padding:20px 15px;
-	
+
 }
 
 .custom-article ul.list-style-1 li:before ,
@@ -2497,14 +2497,14 @@ button.atto_title_button img.icon:last-child {
 	display: inline-block;
     margin: 0 0 0 -18px;
 	font-family: FontAwesome;
-    padding-right: 6px;	
+    padding-right: 6px;
 }
 
 .custom-article ul.list-style-1 li,
 .custom-article ul.list-style-2 li,
 .custom-article ul.list-style-3 li,
 .custom-article ul.list-style-4 li {
-	list-style:none;	
+	list-style:none;
 }
 
 .custom-article ul.list-style-1 li:before {
@@ -2530,24 +2530,24 @@ button.atto_title_button img.icon:last-child {
 	padding-bottom:10px;
 }
 
-.choosecategory, 
+.choosecategory,
 .boxaligncenter.categoryinfo  {
 	padding-bottom:15px;
 	padding-left:0;
 }
 
 .collapsibleregion {
-	padding:15px 0;	
+	padding:15px 0;
 }
 
 #region-main .course_list .box.coursebox .course_title h2.title {
 	 font-size: 14px;
-	 margin:0;		
+	 margin:0;
 	 padding-bottom:0;
 }
 
 #region-main .course_list .box.coursebox {
-	padding-left:0;	
+	padding-left:0;
 }
 .course-content ul.weeks li.section {
     padding: 10px 0 0;
@@ -2570,7 +2570,7 @@ table.flexible, .generaltable {
     padding-left: 10px;
 }
 
-#region-main .course-search-result-search h3.coursename a, 
+#region-main .course-search-result-search h3.coursename a,
 #region-main .box .coursebox .info h3.coursename a {
 	font-size:14px;
 }
@@ -2580,7 +2580,7 @@ table.flexible, .generaltable {
 }
 
 .navbar .btn-navbar {
-	margin-left:0;	
+	margin-left:0;
 }
 
 #notice {
@@ -2608,7 +2608,7 @@ ul.nav .langmenu a .caret {
 select.langmenu, li.langmenu {
 	border:none;
 	opacity:.8;
-	
+
 }
 
 .content ul, .editor_atto_content ul {
@@ -2630,7 +2630,7 @@ li.langmenu a.dropdown-toggle {
     right: 0;
     top: 6px;
     width: 34px;
-	
+
 }
 
 /* End of Customise changes --------------------------------------------------- */
@@ -2643,7 +2643,7 @@ li.langmenu a.dropdown-toggle {
 		display: block;
 		height: 350px;
 	}
-		
+
 	.categories-item img {
 		display: block;
 		height: 350px;
@@ -2655,8 +2655,8 @@ li.langmenu a.dropdown-toggle {
 	.av-courses-slider img {
 		display: block;
 		height: 350px;
-	}	
-	
+	}
+
 	.categories-item img {
 		display: block;
 		height: 300px;
@@ -2669,7 +2669,7 @@ li.langmenu a.dropdown-toggle {
   .main-menu.header3 + .bx-wrapper .bx-viewport .top-slider .content-wrap .top-slide-content .customslider {
 	margin-top:0;
 }
-  
+
 }
 
 @media screen and (max-width: 1360px) {
@@ -2685,30 +2685,30 @@ li.langmenu a.dropdown-toggle {
 		display: block;
 		height: 250px;
 	}
-		
+
 	.categories-item img {
 		display: block;
 		height: 250px;
 		width: 100%;
 	}
-	
+
 }
 
 @media screen and (min-width: 1200px) {
 	#block-region-side-post {
 		width: 246px;
 	}
-	
+
 	#block-region-side-pre {
 		width: 250px;
 	}
-	
+
 	#region-main {
 		box-sizing: border-box;
 		padding: 41px 33px 20px 0;
 		margin: 0 -35px 0 0;
 	}
-	
+
 	.login-page #region-main {
 		width: 100%;
 		padding: 0;
@@ -2723,7 +2723,7 @@ li.langmenu a.dropdown-toggle {
 		height: 200px;
 		width: 100%;
 	}
-	
+
 	.av-courses-slider img {
     display: block;
     height: 200px;
@@ -2735,52 +2735,52 @@ li.langmenu a.dropdown-toggle {
 		display: block;
 		height: 250px;
 	}
-		
+
 	.categories-item img {
 		display: block;
 		height: 190px;
 		width: 100%;
 	}
-  
+
   .top-slide-content .customslider {
     margin-top: 30px;
 	}
 	/*.top-slide-content {
 		top: 18%;
 	}*/
-	
+
 }
 
 @media screen and (max-width: 900px) {
-	
+
 	.loginbox .loginform .form-input {
 	    float: right;
 	}
-	
+
 	.loginbox .loginform .form-input input {
-		margin-bottom:0;	
+		margin-bottom:0;
 	}
-	
+
 	.rememberpass {
-		float:left;	
+		float:left;
 		width:100%;
 	}
-	
+
 	.loginbox label {
 		float:left;
-		
+
 	}
-	
+
 	.guestform input[type="submit"] {
 		margin-left:0;
 	}
-	
+
 	.forgetpass, .loginbox .loginpanel .desc {
 		width:310px;
 	}
-	
+
 	.loginbox input[type="submit"] {
-		margin-left:0;			
+		margin-left:0;
 	}
 }
 
@@ -2790,12 +2790,12 @@ li.langmenu a.dropdown-toggle {
 		height: 300px;
 		width: 100%;
 	}
-	
+
 	.top-slide-content .customslider {
    	 	margin-top: 30px;
 		font-size:150%;
 	}
-	
+
 }
 
 @media screen and (max-width: 480px) and (min-width: 320px){
@@ -2815,12 +2815,12 @@ li.langmenu a.dropdown-toggle {
 	.about-items {
 		margin: 30px 0 0;
 	}
-	
+
 	.about-item {
 		margin: 0 3px 15px;
 		width: 230px;
 	}
-	
+
 	.top-slide-content {
 		padding: 12.3% 0 0;
 	}
@@ -2833,24 +2833,24 @@ li.langmenu a.dropdown-toggle {
 		margin: 0 3px 15px;
 		width: 220px;
 	}
-	
+
 	#block-region-side-post .block {
 		padding: 0 0 36px;
 	}
-	
+
 	.adminsearchform input[type="text"] {
 		width: 166px;
 	}
-	
+
 	.block .header h2 {
 		font-size: 16px;
 		line-height: 21px;
 	}
-	
+
 	#region-main {
 		padding: 41px 20px 0;
 	}
-	
+
 	.login-page #region-main {
 		width: 100%;
 		padding: 0;
@@ -2865,27 +2865,27 @@ li.langmenu a.dropdown-toggle {
 	.navbar {
 		float: none;
 	}
-	
+
 	.header3-login {
 		/*top: 53px;*/
 	}
-	
+
 	.main-menu.header3 ul.nav a {
 		border: none!important;
 		padding-top: 0!important;
 		padding-bottom: 0!important;
 	}
-	
+
 	.main-menu.header3 ul.nav a:hover {
 		background: none!important;
 	}
-	
+
 	.about-item {
 		margin: 0 3px 15px;
 		width: 260px;
 		height: 330px;
 	}
-	
+
 	.top-slide-content h1 {
 		font-size: 38px;
 		line-height: 50px;
@@ -2894,52 +2894,52 @@ li.langmenu a.dropdown-toggle {
 		color: #FFFFFF;
 		padding: 6px 0 30px;
 	}
-	
+
 	.top-slide-content h2 {
 		font-size: 24px;
 	}
-	
+
 	.categories-item {
 		position: relative;
 		float: left;
 		text-align: left;
 		width: 50%;
 	}
-	
+
 	.partners img {
 		margin: 0 2px 0;
 	}
-	
-	.header-b-2:before, 
-	.header-b-2:after, 
-	.header-b:before, 
+
+	.header-b-2:before,
+	.header-b-2:after,
+	.header-b:before,
 	.header-b:after {
 		content: "";
 	}
-	
+
 	.header-b-2:before {
 		left: -10px;
 		top: -14px;
 	}
-	
+
 	.header-b-2:after {
 		right: -10px;
 		bottom: -14px;
 	}
-	
+
 	.logo {
 		margin: 0 0 0 15px;
 	}
-	
+
 	.header-form form {
 		float: none;
 		text-align: center;
 	}
-	
+
 	.top-slide-content .btn-1 {
 		margin: 10px auto 0;
 	}
-	
+
 	.top-slide-content h1 {
 		font-size: 20px;
 		line-height: 22px;
@@ -2948,45 +2948,45 @@ li.langmenu a.dropdown-toggle {
 		color: #FFFFFF;
 		padding: 2px 0 2px;
 	}
-	
+
 	.top-slide-content {
 		padding: 55px 0 0;
 	}
-	
+
 	.top-slide-content h2 {
 		font-size: 14px;
 	}
-	
+
 	.top-slide-content h3 {
 		font-size: 11px;
 	}
-	
+
 	.h-large {
 		font-size: 35px;
 		line-height: 37px;
 	}
-	
+
 	.contact-item {
 		margin: 38px 4px 0;
 	}
-	
+
 	.partners {
 		height: 100px;
 		padding: 0px 0 10px;
 	}
-	
+
 	.partners img {
 		margin: 0 2px 20px;
 	}
-	
+
 	.upcoming-courses {
 		padding: 80px 0 92px;
 	}
-	
+
 	.upcoming-courses .header-b-2 {
 		margin: 0 44px 75px;
 	}
-	
+
 	.feedback-item-text {
 		background: #FFFFFF;
 		padding: 15px 15px 15px;
@@ -2995,11 +2995,11 @@ li.langmenu a.dropdown-toggle {
 		margin: 0 0 34px;
 		position: relative;
 	}
-	
+
 	.btn-2 {
 		margin: 4px 0 0 6px;
 	}
-	
+
 	.av-course-item-cont {
 		background: #e84c3d url(img/i-book.png) no-repeat 96.6% center;
 		background-size: 29px auto;
@@ -3007,92 +3007,92 @@ li.langmenu a.dropdown-toggle {
 		line-height: 15px;
 		padding: 8px 8px 8px;
 	}
-	
-	.av-course-item-cont h2 a, 
+
+	.av-course-item-cont h2 a,
 	.av-course-item-cont h2 {
 		font-size: 14px;
 	}
-	
+
 	.header-3 .av-courses h3 {
 		margin: 30px 44px 7px;
 	}
-	
+
 	.header-3 header .bx-wrapper {
 		padding: 53px 0 0;
 	}
-	
+
 	.header-2 header .bx-wrapper {
 		margin: 0 auto;
 		padding: 120px 0 0;
 	}
-	
+
 	.header-2 .nav {
 		background: rgba(0,0,0,.7);
 		margin: 11px 0 0;
 	}
-	
-	.header-2 .nav-collapse .nav > li > a:hover, 
-	.header-2 .nav-collapse .nav > li > a:focus, 
-	.header-2 .nav-collapse .dropdown-menu a:hover, 
+
+	.header-2 .nav-collapse .nav > li > a:hover,
+	.header-2 .nav-collapse .nav > li > a:focus,
+	.header-2 .nav-collapse .dropdown-menu a:hover,
 	.header-2 .nav-collapse .dropdown-menu a:focus {
 		background: rgba(0,0,0,.7);
 	}
-	
+
 	.header-2 .main-menu {
 		background: rgba(0,0,0,.8);
 	}
-	
+
 	.header-2 .header-form {
 		background: #000000;
 		background: rgba(0,0,0,.7);
 	}
-	
+
 	.about-items {
 		max-width: 550px;
 	}
-	
+
 	.adminsearchform input[type="text"] {
 		width: 116px;
 	}
-	
+
 	#page-header {
 		min-height: 64px;
 	}
-	
+
 	.navbar .btn-navbar {
 		margin-top: 12px;
 	}
-	
+
 	.block_action a {
 		display: inline-block;
 	}
-	
+
 	.block .header .block_action img {
 		margin: 0;
 		display: inline-block;
 		width: 14px;
 	}
-	
+
 	.block .header h2 {
 		font-size: 12px;
 		font-weight: 800;
 		letter-spacing: -.5px;
 	}
-	
-	.block .block_tree li, 
-	.unlist, 
-	.unlist li, 
-	.inline-list, 
-	.inline-list li, 
-	.block .list li, 
-	.section li.activity, 
-	.section li.movehere, 
+
+	.block .block_tree li,
+	.unlist,
+	.unlist li,
+	.inline-list,
+	.inline-list li,
+	.block .list li,
+	.section li.activity,
+	.section li.movehere,
 	.tabtree li {
 		padding: 0 0 10px;
 		margin: 0;
 		list-style: none;
 	}
-	
+
 	.box-link {
 		font-size: 11px;
 		font-weight: 600;
@@ -3125,19 +3125,19 @@ li.langmenu a.dropdown-toggle {
 	.block .block_tree li ul {
 		padding-left: 0;
 	}
-	
+
 	.block_navigation .block_tree li.item_with_icon > p {
 		padding-left: 0;
 	}
-	
+
 	.block_navigation .block_tree li.depth_2 ul {
 		padding-left: 10px;
 	}
-	
+
 	.block .block_tree li.item_with_icon > p img {
 		margin: 3px 0;
 	}
-	
+
 	.block ul li a, .tree_item, .breadcrumb, fieldset.coursesearchbox label, footer {
 		font-size: 13px;
 	}
@@ -3155,11 +3155,11 @@ li.langmenu a.dropdown-toggle {
 /* ----------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 800px) {
-	.coursebox .content .courseimage, 
+	.coursebox .content .courseimage,
 	.coursebox .content .summary {
     	width: 100%; margin:0;
 	}
-	
+
 	.coursebox .content .courseimage {
    		padding-top:20px!important;
 	}
@@ -3174,67 +3174,67 @@ li.langmenu a.dropdown-toggle {
 	.block .header h2:after {
 		content: none;
 	}
-	
+
 	.logo-inner {
 		padding: 11px 31px 5px 20px;
 	}
-	
+
 	#region-main {
 		border: none;
 		padding: 41px 15px 0;
 	}
-	
+
 	.block {
 		clear: both;
 		padding: 0 15px 0;
 	}
-	
+
 	.block .header .block_action {
 		float: right;
 	}
-	
+
 	#block-region-side-post .block {
 		padding: 0 15px 10px;
 	}
-	
+
 	.adminsearchform input[type="text"] {
 		width: 70%;
 	}
-	
+
 	.adminsearchform input[type="submit"] {
 		float: none;
 	}
-	
+
 	.loginpanel h2 {
 		margin-left:0!important;
 	}
-	
+
 	.login-information {
 		font-size: 16px;
 		line-height: 35px;
 		text-align: center;
 	}
-	
+
 	.login-information .right {
 		text-align: center;
 	}
-	
+
 	.block .header h2 {
 		font-size: 15px;
 		font-weight: 800;
 		letter-spacing: 0;
 	}
-	
+
 	.rate {
 		float: right;
 		margin: 0 5px 0 0;
 	}
-	
+
 	.feedback-item-user {
 		height: 90px;
 	}
-	
-	.header-form form input[type="text"], 
+
+	.header-form form input[type="text"],
 	.header-form form input[type="password"] {
 		width: 30%;
 		margin: 0 5px;
@@ -3248,42 +3248,42 @@ li.langmenu a.dropdown-toggle {
 	.categories-item {
 		width: 50%;
 	}
-	
+
 	.upcoming-courses img {
 		float: none;
 		margin: 0 auto 22px;
 		display: block;
 	}
-	
+
 	.container {
 		padding: 0 6px;
 	}
-	
+
 	.header-form {
 		background: #000000;
 		background: rgba(0,0,0,.5);
 		position: relative;
 	}
-	
+
 	.header-form form input[type="text"] {
 		margin: 0 auto 10px;
 		display: block;
 	}
-	
+
 	.contact-item {
 		width: 140px;
 		font-size: 12px;
 	}
-	
+
 	.btn-1 {
 		line-height: 30px;
 	}
-	
-	.header-form form input[type="submit"], 
+
+	.header-form form input[type="submit"],
 	.header-form form button {
 		width: 218px;
 	}
-	
+
 	.categories-item-cont {
 		font-size: 10px;
 		line-height: 13px;
@@ -3293,12 +3293,12 @@ li.langmenu a.dropdown-toggle {
 		padding: 4px;
 		opacity: 1;
 	}
-	
+
 	.categories-item-cont a {
 		font-size: 12px;
 		line-height: 19px;
 	}
-	
+
 	.av-course-item-cont {
 		background: #e84c3d url(img/i-book.png) no-repeat 96.6% center;
 		bottom: 10px;
@@ -3306,90 +3306,90 @@ li.langmenu a.dropdown-toggle {
 		right: 10px;
 		opacity: 1;
 	}
-	
+
 	.feedback-item-text {
 		height: auto;
 	}
-	
+
 	.header-2 .main-menu {
 		top: 137px;
 	}
-	
+
 	.header-2 header .bx-wrapper {
 		padding: 65px 0 0;
 	}
-	
+
 	.header-2 .fixed-header {
 		top: 0;
 	}
-	
+
 	.header-2 .nav {
 		background: rgba(0,0,0,.7);
 		margin: 5px 0 0;
 	}
-	
+
 	.about-item {
 		margin: 0 3px 15px;
 		width: 253px;
 	}
-	
-	header .bx-wrapper .bx-pager, 
+
+	header .bx-wrapper .bx-pager,
 	header .bx-wrapper .bx-controls-auto {
 		bottom: 5px;
 	}
-	
+
 	.breadcrumb-nav {
 		margin: 8px 0 14px 5px;
 	}
-	
+
 	.breadcrumb-button {
 		margin-right: 5px;
 	}
-	
-	#block-region-side-pre, 
+
+	#block-region-side-pre,
 	#block-region-side-post {
 		border: none!important;
 	}
-	
+
 	.header3-login + .fwImage .royalSlider-preview {
 		margin-top: 72px;
 	}
-	
+
 	.royalSlider-preview .rsSlide {
 		padding-top: 11px;
 	}
-	
+
 	.main-menu + .fwImage .royalSlider-preview .rsSlide {
 		padding-top: 90px;
 	}
-	
+
 	.custom-article {
 		width:98%;
 	}
-	
+
 	.top-slide-content .customslider {
    	 	margin-top: 0;
 	}
-	
+
 	.loginpanel {
     	max-width: 100%;
 	}
-	
+
 	.loginbox .loginform .form-input {
-		margin-right:0;	
+		margin-right:0;
 	}
-	
+
 	.loginbox .loginform .form-label {
 		width:51%;
 	}
-	
+
 	.forgetpass, .loginbox .loginpanel .desc {
 		width:100%;
 	}
-	
+
 	.loginbox input[type="submit"] {
 		margin-bottom:20px;
-		
+
 	}
 }
 
@@ -3400,81 +3400,81 @@ li.langmenu a.dropdown-toggle {
 		padding: 0px 0 26px;
 		height: 50px;
 	}
-	
+
 	.top-slide-content {
 		padding: 2px 0 0;
 	}
-	
-	header .bx-wrapper .bx-pager, 
+
+	header .bx-wrapper .bx-pager,
 	header .bx-wrapper .bx-controls-auto {
 		bottom: 0;
 		padding-top: 0;
 	}
-	
-	.header-form form input[type="submit"], 
+
+	.header-form form input[type="submit"],
 	.header-form form button {
 		width: 94%;
 	}
-	
+
 	.header-form form input[type="text"] {
 		width: 94%;
 	}
-	
+
 	.partners img {
 		margin: 0 auto 20px;
 		display: block;
 		height: 50px;
 	}
-	
+
 	.about-item {
 		float: none;
 		margin: 0 auto 15px;
 		width: 270px;
 	}
-	
+
 	.loginbox .loginform .form-input input {
 		width: 150px;
 		margin: 0 0 5px;
 	}
-	
-	
-	
+
+
+
 	.rememberpass input {
 		float: left;
 		margin: 13px 2px 0 0;
 	}
-	
+
 	.forgetpass {
 		width: 100%;
 		float: none;
 		text-align: center;
 	}
-	
+
 	.loginbox .loginpanel .desc {
 		width: 100%;
 		float: none;
 		text-align: center;
 	}
-	
+
 	.guestform {
 		clear: both;
 		padding: 12px 0 0;
 	}
-	
+
 	.loginbox {
 		font-size: 12px;
 	}
-	
+
 	.loginbox a {
 		font-size: 12px;
 	}
-	
+
 	.stay-connected .header-b-2 {
 		font-size: 25px;
 		margin: 0 25px;
 	}
-	
-	.header-form form input[type="text"], 
+
+	.header-form form input[type="text"],
 	.header-form form input[type="password"] {
 		width: 94%;
 		margin: 5px 10px;
@@ -3484,12 +3484,12 @@ li.langmenu a.dropdown-toggle {
 		margin-top: 10px;
 		font-size:120%;
 	}
-	
+
 	.top-slide-content .customslider h2 {
 		line-height:30px!important;
 		font-size:18px;
 	}
-	
+
 	.main-menu.header3 + .bx-wrapper .bx-viewport .top-slider .content-wrap .top-slide-content .customslider {
 		margin-top:20px;
 	}
@@ -3511,7 +3511,7 @@ li.langmenu a.dropdown-toggle {
 		line-height: 10px;
 		margin: 12px 44px 0;
 	}
-	
+
 	.top-slide-content h1 {
 		font-size: 18px;
 		line-height: 16px;
@@ -3520,12 +3520,12 @@ li.langmenu a.dropdown-toggle {
 		color: #FFFFFF;
 		padding: 0;
 	}
-	
+
 	.top-slide-content h2 {
 		font-size: 12px;
 		line-height: 22px;
 	}
-	
+
 	.categories-item {
 		width: 100%;
 	}
@@ -3533,14 +3533,14 @@ li.langmenu a.dropdown-toggle {
 		line-height:22px!important;
 		font-size:14px;
 	}
-	
+
 	.loginbox .loginform .form-label {
-		width:37%;	
+		width:37%;
 	}
 	div#page-navbar {
 		margin-top: 100px;
 	}
-	
+
 }
 
 @media screen and (max-width: 320px) {
@@ -3550,9 +3550,9 @@ li.langmenu a.dropdown-toggle {
 }
 @media (max-width: 1199px){
 	section.two-column-main {
-		width: 70% !important;	
+		width: 70% !important;
 	}
-	
+
 	aside.two-column-sidebar {
 		width: 30% !important;
 	}
@@ -3560,9 +3560,9 @@ li.langmenu a.dropdown-toggle {
 
 @media (max-width: 767px){
 	section.two-column-main {
-		width: 100% !important;	
+		width: 100% !important;
 	}
-	
+
 	aside.two-column-sidebar {
 		width: 100% !important;
 	}
@@ -3631,7 +3631,7 @@ li.langmenu a.dropdown-toggle {
 
 .header3 .langmenu, ul.nav .langmenu {
     margin-top: 0;
-}    
+}
 
 
 .submissionlinks a {
@@ -3726,7 +3726,7 @@ li.langmenu a.dropdown-toggle {
 	text-indent: -5px !important;
 }
 .block_navigation .block_tree p a, .block_settings .block_tree p a {
-	font-size: 13px !important;	
+	font-size: 13px !important;
 }
 .block_navigation .block_tree li.depth_2, .block_settings .block_tree li.depth_2 {
     padding: 0 0 10px !important;
@@ -3825,4 +3825,21 @@ input[type="reset"]:focus,
 }
 .about-item {
   padding: 0 30px 30px;
+}
+
+/* Login and signup page improvements */
+.loginbox h2 {
+    text-align: left;
+}
+.loginpanel {
+    margin-right: 3rem;
+}
+.loginbox .subcontent {
+    text-align: left;
+}
+@media (min-width: 980px) {
+    .loginbox.twocolumns .loginpanel {
+        margin-left: 4rem;
+        margin-right: 3rem;
+    }
 }
