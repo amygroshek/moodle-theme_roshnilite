@@ -102,12 +102,12 @@ $context = context_system::instance();
 							</form>
 						</div>
 					</div>
-	            <?php 
+	            <?php
 	}
 	            ?>
 		</header><!-- END of header -->
 		<div class="content">
-            <?php	
+            <?php
             	require($CFG->dirroot.'/theme/roshnilite/layout/home/firstslider.php');
                 require($CFG->dirroot.'/theme/roshnilite/layout/home/aboutsite.php');
                 // require($CFG->dirroot.'/theme/roshnilite/layout/home/availablecourse.php');

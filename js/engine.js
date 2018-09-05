@@ -1,4 +1,5 @@
 ﻿jQuery(document).ready(function() {
+    // console.log('document ready');
 	var _minSlides, _minSlides2,
 	    _width = $(window).width();
 
@@ -11,21 +12,33 @@
 	} else if (_width > 760 && _width <= 1200) {
 	    _minSlides = 2;
 	    _minSlides2 = 2;
-	} else {	
+	} else {
 	    _minSlides = 4;
 	    _minSlides2 = 2;
 	}
 
-	$('.top-slider').bxSlider({
-		slideWidth: 5000,
-		minSlides: 1,
-		maxSlides: 1,
-		slideMargin: 0,
-		moveSlides: 1,
-		controls: false,
-		auto: true,
-		pause: 10000
-	});  
+    if ($('.top-slider').length >= 1) {
+        // Initialize top slider on front page
+    	var topSlider = $('.top-slider').bxSlider({
+    		slideWidth: 5000,
+    		minSlides: 1,
+    		maxSlides: 1,
+    		slideMargin: 0,
+    		moveSlides: 1,
+    		controls: false,
+    		auto: true,
+    		pause: 10000
+    	});
+
+        // If slides less than or equal to 1, don't autoswitch.
+        // console.log(topSlider.getSlideCount());
+        if (topSlider.getSlideCount() <= 1) {
+            // Stop auto-switching
+            topSlider.stopAuto();
+            // Hider the pager
+            $('.bx-pager').hide();
+        }
+    }
 
 	$('.av-courses-slider').bxSlider({
 		slideWidth: 5000,
@@ -52,7 +65,7 @@
 		_item.fadeIn();
 	});
 	$('.nav-collapse').removeClass('collapse');
-	$(".btn-navbar").on("click",function() { 
+	$(".btn-navbar").on("click",function() {
 		$('.nav-collapse').toggleClass('in collapse').removeClass('collapse').removeAttr("style");
 	});
 	$('.navbar .dropdown').click(function() {
@@ -73,4 +86,3 @@
 		$('.usermenu').hide();
 	}
 });
-
