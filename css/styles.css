@@ -3854,3 +3854,13 @@ input[type="reset"]:focus,
 .loginbox label {
     line-height: normal;
 }
+
+/* Link formatting and color */
+#region-main a:focus,
+#region-main a:visited {
+    color: #334852;
+}
+
+#region-main a {
+    text-decoration: underline;
+}
